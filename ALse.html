@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head runat = "server">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=yes">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+</head>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+
+<body style="background-color: black;">
+
+        <nav class="navbar navbar-expand-lg" style="background-color: black;" >
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#"><img src="Images/logo.jpeg" height="60" width="180"></a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+               
+              
+              <div class="collapse navbar-collapse" id="navbarNavAltMarkup" >
+                <div class="navbar-nav">
+                  <a class="nav-link active" aria-current="page" href="Intro.html" style="color: gold;">Intro</a> 
+                  <a class="nav-link" href="Qualifications.html" style="color: gold;">Qualifications</a>
+                  <a class="nav-link" href="Skills.html" style="color: gold;">Skills</a>
+                  <a class="nav-link" href="casestudies.html" style="color: gold;">Case Studies</a>
+                  <button type="button" class="btn btn-warning" onclick="window.open('Images/SakshiJha_Resume.docx')">View Resume/CV</button>
+                  
+                </div>
+              </div>
+            </div>
+          </nav>
+          <div style="color: aliceblue; padding:20px; border: 3px solid whitesmoke;margin: 40px;">
+          <h3>Overview </h3>
+          <p>Planning the tasks required to complete an application for managing medical images at align technology.</p>
+          <hr>
+          <h3>Problem </h3>
+          <p>It is very difficult to manage so many image documents and recognizing and distinguishing between them in a hospital it can be an
+            X-ray report or someone's test reports and it might get mixed and cause serious problems like it can lead to wrong treatments to the 
+            patient and even worse the cause of someone's death because of wrong treatment, so it's a very crucial document and the client came up 
+            with an idea to having a Medical Image Manager application so that way they could easily manage the Medical images and also distinguish between them without any 
+            issues. so Now They have two developers available to work on the project, and the client would like to have a prototype to review after three sprints. 
+            When planning out the tasks required to complete this prototype, they want us to leave space in the last sprint for testing and bug fixes. </p>
+           <hr>
+            <h3>Project Reference </h3>
+            <p>The client has provided basic wireframes for what the prototype should look like, the images to populate the application, and a CSV file containing the relevant metadata.
+            <br>
+            They've also provided the following requirements for the application:
+            <br>
+           <p> The application should have two main views the user can toggle between:
+            <ul>
+           <li> A text view displaying a list of image metadata.</li>
+            <li>An image view displaying the images in a grid.</li>
+            </ul>
+            </p>
+           <p> Clicking an image in the main view should switch to a single view displaying just that image. The image view should have a “back” option to go to the main view. 
+            The application should have a control bar supporting the following functions:
+            <ul>
+           <li> A field that displays the metadata for the currently selected image.</li>
+           <li> A button to move ahead to the next image. If the main view is open, the next item in the view will be highlighted. If the image view is open, the displayed image will move to the next item in the list.</li>
+          <li> A button to return to the last image. If the main view is open, the previous item in the view will be highlighted. If the image view is open, the displayed image will move to the previous item in the list.</li>
+          <li>  A menu to set the magnification of the image.</li>
+          </ul>
+          </p>
+          <p>  The application should have a search bar that filters the images displayed in the main view, automatically filtering the view as users enter text into the field.<br>
+            The application should have a side panel used to navigate through patient names and facilities. Selecting an option will display only images meeting that criteria in the main view. The panel will have two views the user can toggle between:
+            <ul>
+            <li>A patient view containing a list of all patients.</li>
+           <li>A facility view containing a list of facilities.</li> 
+           </ul>
+           </p>
+           
+            </p>
+            </p>
+            <hr>
+            <h3>My Role</h3>
+            <p>Front-end Developer responsible for the client's Project Planning.</p>
+             <hr>
+            <h3>Solution </h3>
+            <p>We first reviewed the client's requirements for the prototype and then we broke up the project into individual tasks required 
+              to be performed in order to complete the application then we scoped out the approximate time we expect each task to take. After 
+              that we will create a plan for each sprint and assign each task to a developer by sprint and we will divide the whole project and
+               tasks into three sprints.
+
+             <br>
+              An except of the work:
+              <br>
+              <img src="Images/task planning.jpg" alt="" height="500px" width="600px">
+              <br>
+              <h5>Download whole Document</h5>
+              <button class="btn btn-primary" onclick="window.open('Images/Project_planning.pdf')">Download File</button>
+              <hr>
+              <h3>Lesson Learned</h3>
+              <p>
+                <ol>
+                  <li>Understood what goes into scoping and planning an UI project.</li>
+                  <li>Interacting with clients and understanding their requirements.</li>
+                </ol>
+              </p>
+
+            </p>
+
+            </div>
+    
+</body>
+</html>
